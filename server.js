@@ -9,6 +9,10 @@ console.log(MONGO_URL, PORT)
 
 app = express();
 
+/*
+    This is just a test to see some thing
+*/
+
 app.use(express.json())
 app.use(express.urlencoded({extended: false}))
 
