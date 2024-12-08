@@ -10,7 +10,6 @@ const getProducts = async(req, res)=> {
     }
 }
 
-
 // get single product
 const getProduct = async (req, res)=> {
     try{
